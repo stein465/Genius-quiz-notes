@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3362aeb3-d050-4beb-b190-931fe4ac0c2d" name="Default Changelist" comment="" />
+    <list default="true" id="3362aeb3-d050-4beb-b190-931fe4ac0c2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArvoreBinariaBusca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entidades.py" beforeDir="false" afterPath="$PROJECT_DIR$/Entidades.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ab56zFvIrBTW0jnAWhkJQ8tiCs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -30,6 +41,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.Program">
+    <configuration name="ArvoreBinariaBusca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GeniusNotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ArvoreBinariaBusca.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GeniusNotes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,9 +104,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="metodos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GeniusNotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/metodos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Program" />
+        <item itemvalue="Python.ArvoreBinariaBusca" />
+        <item itemvalue="Python.metodos" />
         <item itemvalue="Python.UI" />
       </list>
     </recent_temporary>
@@ -93,6 +148,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="486" y="233" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591800952171">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="486" y="233" key="#com.intellij.fileTypes.FileTypeChooser/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1591800952171" />
     <state x="450" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587575991111">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -117,22 +176,26 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1419" height="276" key="GridCell.Tab.-1.right/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1587511700229" />
-    <state width="1419" height="393" key="GridCell.Tab.0.bottom" timestamp="1587663433684">
+    <state width="1419" height="61" key="GridCell.Tab.0.bottom" timestamp="1591801710025">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="393" key="GridCell.Tab.0.bottom/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1587663433684" />
-    <state width="1419" height="393" key="GridCell.Tab.0.center" timestamp="1587663433684">
+    <state width="1419" height="393" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588706788734" />
+    <state width="1419" height="61" key="GridCell.Tab.0.bottom/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1591801710025" />
+    <state width="1419" height="61" key="GridCell.Tab.0.center" timestamp="1591801710025">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="393" key="GridCell.Tab.0.center/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1587663433684" />
-    <state width="1419" height="393" key="GridCell.Tab.0.left" timestamp="1587663433684">
+    <state width="1419" height="393" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588706788734" />
+    <state width="1419" height="61" key="GridCell.Tab.0.center/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1591801710025" />
+    <state width="1419" height="61" key="GridCell.Tab.0.left" timestamp="1591801710025">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="393" key="GridCell.Tab.0.left/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1587663433684" />
-    <state width="1419" height="393" key="GridCell.Tab.0.right" timestamp="1587663433684">
+    <state width="1419" height="393" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588706788734" />
+    <state width="1419" height="61" key="GridCell.Tab.0.left/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1591801710025" />
+    <state width="1419" height="61" key="GridCell.Tab.0.right" timestamp="1591801710025">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1419" height="393" key="GridCell.Tab.0.right/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1587663433684" />
+    <state width="1419" height="393" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588706788734" />
+    <state width="1419" height="61" key="GridCell.Tab.0.right/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1591801710025" />
     <state width="1419" height="276" key="GridCell.Tab.1.bottom" timestamp="1587511698745">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -149,13 +212,14 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1419" height="276" key="GridCell.Tab.1.right/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1587511698745" />
-    <state x="416" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1587660694548">
+    <state x="416" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1591802712841">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="416" y="254" key="com.intellij.ide.util.TipDialog/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1587660694548" />
-    <state x="1528" y="109" width="1081" height="597" maximized="true" key="dock-window-1" timestamp="1587658054114">
+    <state x="416" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1588706688677" />
+    <state x="416" y="254" key="com.intellij.ide.util.TipDialog/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1591802712841" />
+    <state x="1440" y="136" width="1296" height="649" key="dock-window-1" timestamp="1591802571942">
       <screen x="1440" y="136" width="1280" height="680" />
     </state>
-    <state x="1528" y="109" width="1081" height="597" maximized="true" key="dock-window-1/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1587658054114" />
+    <state x="1440" y="136" width="1296" height="649" key="dock-window-1/1440.136.1280.680/0.0.1440.860@0.0.1440.860" timestamp="1591802571942" />
   </component>
 </project>

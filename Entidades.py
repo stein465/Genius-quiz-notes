@@ -1,5 +1,7 @@
 class jogadores():
-    def __init__(self, nome, pais, pontuacao):
+
+
+    def __init__(self, nome = None, pais = None, pontuacao = None):
         self.nome = nome
         self.pais = pais
         self.pontuacao = pontuacao

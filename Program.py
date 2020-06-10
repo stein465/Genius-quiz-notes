@@ -2,16 +2,17 @@ import pygame
 import Entidades
 import os
 import operator
+import ArvoreBinariaBusca
+from ArvoreBinariaBusca import ArvoreBinariaBusca,NodoArvore
 from UI import interface, limpar_tela
 from metodos import tocar, iniciar,perguntar
 pygame.init()
 notas = ('c', 'd', 'e', 'f', 'g', 'a','b')
 lista = []
-ranking = []
+ranking = ArvoreBinariaBusca()
 asr ='sim'
 
 interface()
-
 while asr == 'sim':
         os.system('cls' if os.name == 'nt' else 'clear')
         terminarPartida = False
@@ -45,14 +46,22 @@ while asr == 'sim':
                 limpar_tela() ## limpar tela após acertar
         pontuacao = ((len(lista)) - 1) *10
         jogador = Entidades.jogadores(nome, pais, pontuacao)
-        ranking.append(jogador)
+        ranking.insert(jogador)
         print("Dados da partida:")
         print(jogador)
         asr = input("\n Quer outra partida?   sim / nao \n")
 
-
+# FIM DA RODADA E MOSTRA DO RESULTADOS
 print("__________RANKING________")
 
-ranking.sort(key=operator.attrgetter('pontuacao'), reverse=True)
-for jogador in ranking:
-    print(jogador)
+ranking.emOrdem(ranking.getRoot())
+
+print("\n---------VENCEDOR DA RODADA-----------")
+
+vencedor = ranking.maxx(ranking.getRoot())            #FOLHA A DIREITA
+print(vencedor)
+print("---- PARABENS------")
+print(":D :D :D :D")
+
+
+

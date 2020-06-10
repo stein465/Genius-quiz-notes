@@ -19,7 +19,7 @@ def interface():
     print(" Ré  = d")
     print(" Mi  = e")
     print(" Fá  = f")
-    print(" Sol  = g")
+    print(" Sol = g")
     print(" Lá  = a")
     print(" si  = b")
 
